@@ -77,7 +77,22 @@ img {
 
 
 <br>
-</body> 
+</body>
+<style>
+	* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 	<p>
 		During week 3 my class was tasked with three assignments: 
 		<br>1. Make a T-shirt
